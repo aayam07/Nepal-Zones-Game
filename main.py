@@ -52,3 +52,5 @@ while CHANCES > 0:
             guessed_zones.append(answer_zone)
 
     CHANCES -= 1
+
+screen.exitonclick()
