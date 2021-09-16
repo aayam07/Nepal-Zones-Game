@@ -1,7 +1,7 @@
 import turtle
 import pandas
 
-CHANCES = 15  # Global Constant
+CHANCES = 14  # Global Constant
 
 screen = turtle.Screen()
 screen.setup(width=1300, height=600)
@@ -33,7 +33,7 @@ while CHANCES > 0:
                                           f"[Type 'exit' if you want to see the missing zones which "
                                           f"will be given is zones_to_learn.csv file]").title()
 
-    if answer_zone == "Exit" and len(guessed_zones) != 14:
+    if answer_zone == "Exit":
         get_missing_zones(map_zones=all_zones, user_zones=guessed_zones)
         break
 
