@@ -1,5 +1,5 @@
 # Nepal-Zones-Game
-This is an educational game, where you'll be shown with the outline of the map of Nepal and you'll have to guess the name of all 14 zones of the country. If your guess is correct, your guess will be shown in the map in the exact position of the guessed zone (i.e where it lies). You'll have 28 chances to guess the 14 zones, which is 2 chances to guess a zone. This game is created using Python's turtle graphics for GUI and pandas library for data analysis and CSV conversions.
+This is an educational game, where you'll be shown with the outline of the map of Nepal and you'll have to guess the name of all 14 zones of the country. If your guess is correct, your guess will be shown in the map in the exact position of the guessed zone (i.e where it lies). You'll only have 14 chances to guess the 14 zones, so that you can concentrate on your learning. This game is created using Python's turtle graphics for GUI and pandas library for data analysis and CSV conversions.
 
 This project is created so that people can learn about the zones in our country, Nepal. I guess this will be helpful for the school students to learn about the map of nepal in an interactive and engazing manner. 
 
