@@ -11,10 +11,7 @@ turtle.shape(map_of_nepal)  # to display map of nepal onto our screen
 
 
 def get_missing_zones(map_zones, user_zones):
-    missed_zones = []
-    for zone in map_zones:
-        if zone not in user_zones:
-            missed_zones.append(zone)
+    missed_zones = [zone for zone in map_zones if zone not in user_zones]  # Conditional List Comprehension
     # Converting missed_zones list to a dataframe
     missed_zones_df = pandas.DataFrame(missed_zones)
     missed_zones_df.to_csv("./zones_to_learn.csv")
